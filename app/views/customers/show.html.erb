@@ -2,6 +2,8 @@
 
 <%= render @customer %>
 
+<%= image_tag @customer.avatar %>
+
 <div>
   <%= link_to "Edit this customer", edit_customer_path(@customer) %> |
   <%= link_to "Back to customers", customers_path %>
