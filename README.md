@@ -19,6 +19,10 @@ But, previously, you need to create:
 
 (and an AWS account, obviously ...)
 
+### Updates
+Keeping your secrets encrypted is a good practice. Therefore, [I changed the code](https://github.com/gabrielcostasilva/rails-storage/commit/edbfc5fbf4f7b82a13ab5646504dbaeccb43f205) to use Rails credentials to store the AWS credentials as presented in [this article](https://webcrunch.com/posts/the-complete-guide-to-ruby-on-rails-encrypted-credentials).
+
+> Notice that credentials file is not tracked by git, so you must create it in your local environment.
 
 ## Running the Project
 First off, ensure you have the prerequisites to run a rails application, [which are](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails):
